@@ -16,18 +16,11 @@
  * @author Arundale R.
  *
  */
-#ifndef __SHOX96_0_2_COMPRESS__
-#define __SHOX96_0_2_COMPRESS__
+#ifndef __SHOX96_0_2_PGM_COMPRESS__
+#define __SHOX96_0_2_PGM_COMPRESS__
 
 typedef unsigned char byte;
 
-struct lnk_lst {
-  char *data;
-  struct lnk_lst *previous;
-};
-
-int shox96_0_2_compress(const char *in, int len, char *out, struct lnk_lst *prev_lines);
-int shox96_0_2_decompress(const byte * const in_list[], int idx, char *out, int end_len);
-int shox96_0_2_decompress(const char *in, int len, char *out);
+int shox96_0_2_pgm_decompress(const byte * const in_list[], int idx, char *out, int end_len);
 
 #endif
