@@ -25,8 +25,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#include "shox96_0_2.h"
-
 typedef unsigned char byte;
 
 #define NICE_LEN_FOR_PRIOR 7
