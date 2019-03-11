@@ -4,6 +4,8 @@
 
 Shox96 can achieve upto 60% compression depending on the composition of text.  This can be especially useful in constrained environments like Arduino Uno where only 32kb of Flash memory is available.
 
+To find out how Shox96 works, read [this article](https://github.com/siara-cc/Shox96/blob/master/Shox96_Article_0_2_0.pdf?raw=true).
+
 ## Applications
 
 - Displaying descriptive error or warning messages
