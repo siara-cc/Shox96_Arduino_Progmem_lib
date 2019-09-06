@@ -1,4 +1,6 @@
-# Compression and decompression Library for use with Arduino Flash Memory (PROGMEM)
+# (Deprecated) Compression and decompression Library for use with Arduino Flash Memory (PROGMEM)
+
+** This library has been deprecated **. Use [Unishox_Arduino_Progmem_lib](https://github.com/siara-cc/Unishox_Arduino_Progmem_lib) instead.  It has same features and more.
 
 [Shox96](https://github.com/siara-cc/Shox96) is a technique used for compressing and decompressing short strings. This library allows storing of compressed text strings in Arduino Program Memory and provides API to retrieve each string individually using index.
 
